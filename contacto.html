@@ -17,7 +17,7 @@
         <nav class="anchoMaximo ">
             <ul class="grid">
                 <li><a href="index.html">INICIO</a></li>
-                <li><a href="arte-delfin">DELFIN</a></li>
+                <li><a href="arte-delfin.html">DELFIN</a></li>
                 <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
@@ -25,15 +25,17 @@
     
     <main class="contenido principal">
         <section class="anchoMaximo">
-            <div>
+            <div class="centra">
                 <h1>Contacta con nosotros</h1>
                 <p>
                     indicanos que te gustaria saber sobre los delfines
                 </p>
-                <form action="">
-                    <input type="text" name="nombre" id="nombre">
-                    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-                    <input type="checkbox" name="politica" id="politica">Acepto la<span>Politica de Privacidad</span>
+                <form action="" id="form-contacto">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Comparte tu informacion"></textarea>
+                    <div>
+                        <input type="checkbox" name="politica" id="politica"> Acepto la<span class="blue">Politica de Privacidad</span>
+                    </div>
                     <input type="submit" value="Enviar informacion" class="btn-informacion">
                 </form>
             </div>
