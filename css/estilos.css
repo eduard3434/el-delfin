@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+.anchoMaximo{
+    margin: 20px auto;
+    max-width: 1250px;
+}
+.grid{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabeceraPrincipal{
+    min-height: 300px;
+    background: url(../imagenes/delfin.jpg)50% 38%/cover no-repeat;
+}
+.ul-nav{
+    background: rgb(167, 167, 221);
+    font-size: 1.3em;
+}
+
+.ul-nav ul{
+    list-style-type: none;
+}
+.ul-nav ul li{
+    padding: 20px; 
+}
+.ul-nav a{
+    text-decoration: none;
+    color: black;
+}
+.ul-nav a:hover{
+    color: rgb(36, 239, 253);
+}
+.contenido-principal{
+    background: url(https://previews.123rf.com/images/fokaspokas/fokaspokas1809/fokaspokas180902727/108802148-silueta-de-delf%C3%ADn-dise%C3%B1o-de-papel-s%C3%ADmbolo-cortado-estilo-sin-hueso.jpg)50% 50%/20% repeat;
+    
+}
+.contenido-principal section{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contenido-principal p{
+    font-size: 1.4em;
+}
+.contenido-principal h1{
+    font-size: 2em;
+}
+
+.footerP{
+    font-size: 1.4em;
+    text-align: center;
+}
