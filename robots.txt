@@ -1,0 +1,3 @@
+user-agent: *
+Allow: /
+Sitemap:http://eduardcolmenares.com/el_delfin/sitemap.xml
