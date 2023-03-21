@@ -5,6 +5,9 @@
     margin: 20px auto;
     max-width: 1250px;
 }
+h3{
+    font-size: 1.5em;
+}
 .grid{
     display: grid;
     grid-auto-flow: column;
