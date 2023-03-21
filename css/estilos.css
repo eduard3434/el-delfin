@@ -58,6 +58,13 @@
 }
 
 /* formulario */
+address{
+    text-align: center;
+
+}
+address a{
+    text-decoration: none;
+}
 #form-contacto{
     display: grid;
     grid-template-columns: 1fr;
