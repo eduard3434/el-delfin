@@ -179,5 +179,10 @@ opacity: 0;
 /* Delfines Vlasov especialistas en musica delfinica */
 
 .center-video{
-    margin: auto;
+    margin: 0 100px;
+    overflow: hidden;
+}
+
+.video-delfin{
+    margin-left: 50px;
 }
