@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="en esta pagina se puede encontrar informacion de los dlfines y su participacion en alguna pelicula de cine, tambien se indica una informacion adicional sobre como es el delfin">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>El sonido del delfin que te llama por la noche</title>
+    <link rel="stylesheet" href="css/dolphin-rithm.css">
+    <title>Los mejores juegos de delfines que se pueden encontrar</title>
 </head>
 
 <body>
@@ -30,16 +31,30 @@
     </div>
     <main class="contenido-principal">
         <section class="anchoMaximo">
-            <h1>ASMR de delfines</h1>
-            <div class="imagenesD center-video">
-                <iframe class="video-delfin" width="1200" height="630" src="https://www.youtube.com/embed/GOsfvjwwe2E?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
-            </div>
+            <h1>Usa la barra espaciadora para seguir el ritmo del delfin</h1>
+            <div id="dolphin-house" class="dolphin-house">
+                <div class="dolphin-hit">
+
+                </div>
+
+                <button style="width: 50px; height: 50px;" onclick="crearCirculo()">
+                <button style="width: 50px; height: 50px;" onclick="removeAnimation()"></button>
+
+                </button>
+
+                <div id="pot">
+                    <div class="circle-item">
+
+                    </div>
+                </div>
         </section>
         
     </main>
     <footer class="anchoMaximo footerP">
         &copy; Eduard Colmenares
     </footer>
+
+    <script src="js/ritmo-delfinico.js"></script>
 </body>
 
 </html>

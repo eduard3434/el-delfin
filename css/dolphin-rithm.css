@@ -1,0 +1,28 @@
+.dolphin-house{
+    height: 200px;
+    width: 1700px;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dolphin-hit{
+    border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	border: 2px solid blue;
+}
+
+
+@-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100%;
+      
+    }
+}
+
