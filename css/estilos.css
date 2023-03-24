@@ -186,3 +186,36 @@ opacity: 0;
 .video-delfin{
     margin-left: 50px;
 }
+
+.experiencias-delfines{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 100px;
+}
+
+.flex-trick{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton-irawadi{
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    height: 50px;
+    width: 160px;
+    background-color: #a7a7dd;
+    color: black;
+    font-size: 1.1em;
+}
+
+a{
+    text-decoration: none ;
+    color: black;
+}
+
+.auto-trick{
+    grid-template-columns: 1fr;
+}
